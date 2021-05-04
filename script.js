@@ -255,22 +255,31 @@
 
                                     //Resturant Calculator
 
-const billAmt = [10, 5620, 123, 785, 136, 25];
-const calTipAmt = function(billAmt){
+// const billAmt = [10, 5620, 123, 785, 136, 25];
+// const calTipAmt = function(billAmt){
 
-for(const i=0;i<6;i++)
-{
-    if (30 < billAmt[i] && billAmt[i] < 300){
-        tipAmt = (billAmt[i]+(0.15* billAmt[i]));
-   }
-   else
-   {
-       tipAmt = (billAmt[i]+(0.20* billAmt[i]));
-   }
+// for(const i=0;i<6;i++)
+// {
+//     if (30 < billAmt[i] && billAmt[i] < 300){
+//         tipAmt = (billAmt[i]+(0.15* billAmt[i]));
+//    }
+//    else
+//    {
+//        tipAmt = (billAmt[i]+(0.20* billAmt[i]));
+//    }
+// }
+// return tipAmt;
+// }
+// const tipTotal = calTipAmt(billAmt);
+// console.log(tipTotal);
+
+//---------------------------------------------------------------------------------------------------------------
+//OBJECTS
+
+const objectCreation ={
+    firstName : "Akshat",
+    lastName : "Garg",
+    ageAkshat : 19,
+    friends : ['Akash', 'Deepak', 'Himanshu'],
+    parents : ['Sandeep', 'Nidhi']
 }
-return tipAmt;
-}
-const tipTotal = calTipAmt(billAmt);
-console.log(tipTotal);
-
-
