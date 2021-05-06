@@ -276,10 +276,35 @@
 //---------------------------------------------------------------------------------------------------------------
 //OBJECTS
 
-const objectCreation ={
-    firstName : "Akshat",
-    lastName : "Garg",
-    ageAkshat : 19,
-    friends : ['Akash', 'Deepak', 'Himanshu'],
-    parents : ['Sandeep', 'Nidhi']
+// const objectCreation ={
+//     firstName : "Akshat",
+//     lastName : "Garg",
+//     ageAkshat : 19,
+//     friends : ['Akash', 'Deepak', 'Himanshu'],
+//     parents : ['Sandeep', 'Nidhi']
+// }
+// console.log(objectCreation);
+// console.log(objectCreation.friends);
+// console.log(objectCreation['lastName']);
+
+// const endName = 'Name';
+// console.log(objectCreation['first' + endName])
+// console.log(objectCreation['last' + endName])
+
+// const forPrompt = prompt("What Do You Want To Know about Mr. Akshat either it is firstName, lastName, ageAkshat,friends, parents");
+// console.log(objectCreation[forPrompt]);
+
+//JONAS HAVE THREE FRIENDS. HIS BESFRIEND IS MICHAEL
+
+const jonasDetails = {
+    nameF : "Jonas",
+    numberOfFriends : ["Michael", "Steven", "Mike"],
+    birthyear: 1990,
+    calcAge: function() {
+        return 2037- this.birthyear
+    }
+
 }
+console.log(`${jonasDetails.nameF} have ${jonasDetails.numberOfFriends.length} friends whose names are ${jonasDetails.numberOfFriends[0]}, ${jonasDetails.numberOfFriends[1]}, ${jonasDetails.numberOfFriends[2]}. And his best friend is ${jonasDetails.numberOfFriends[0]}`);
+console.log(jonasDetails.calcAge());
+
