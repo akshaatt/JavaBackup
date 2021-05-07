@@ -296,15 +296,93 @@
 
 //JONAS HAVE THREE FRIENDS. HIS BESFRIEND IS MICHAEL
 
-const jonasDetails = {
-    nameF : "Jonas",
-    numberOfFriends : ["Michael", "Steven", "Mike"],
-    birthyear: 1990,
-    calcAge: function() {
-        return 2037- this.birthyear
-    }
+// const jonasDetails = {
+//     nameF : "Jonas",
+//     numberOfFriends : ["Michael", "Steven", "Mike"],
+//     birthyear: 1990,
+//     calcAge: function() {
+//         return 2037- this.birthyear
+//     }
 
+// }
+// console.log(`${jonasDetails.nameF} have ${jonasDetails.numberOfFriends.length} friends whose names are ${jonasDetails.numberOfFriends[0]}, ${jonasDetails.numberOfFriends[1]}, ${jonasDetails.numberOfFriends[2]}. And his best friend is ${jonasDetails.numberOfFriends[0]}`);
+// console.log(jonasDetails.calcAge());
+
+// const Jonas = {
+//     birthYear : 1995,
+//     hasDriversLicense : false,
+
+//     calcAge: function(){
+//         this.age = 2037 - this.birthYear
+//         return this.age;
+//     },
+    
+//     getSummary: function(){
+//     return (`Jonas is a ${this.calcAge()} years old teacher and has ${this.hasDriversLicense ? 'a' : 'no'} Driver's License.`)
+//     }
+
+// }
+// console.log(Jonas.getSummary())
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//coding challange
+
+// const markProp = {
+//     firstName : "Mark",
+//     lastName : "Miller",
+//     mass: 78,
+//     height : 1.69,
+
+//     calBMI : function(){
+//         return `${(this.mass)/(this.height * 2)}`
+//     }
+// }
+// const johnProp = {
+//     firstName : "John",
+//     lastName : "Smith",
+//     mass: 92,
+//     height : 1.95,
+
+//     calBMI : function(){
+//         return ` ${(this.mass)/(this.height * 2)}`
+//     }
+// }
+// if(markProp.calBMI() > johnProp.calBMI){
+//     console.log(`The BMI of ${markProp.firstName} ${markProp.lastName} is ${markProp.calBMI()} grater than BMI of ${johnProp.firstName} ${johnProp.lastName} (${johnProp.calBMI()}) by ${markProp.calBMI() - johnProp.calBMI()}`);
+// }
+// else{
+//     console.log(`The BMI of ${johnProp.firstName} ${johnProp.lastName} is ${johnProp.calBMI()} grater than BMI of ${markProp.firstName} ${markProp.lastName} (${markProp.calBMI()}) by ${johnProp.calBMI() - markProp.calBMI()}`);
+// }
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// loops
+
+// for(let rep = 1; rep<=8; rep++){
+//     console.log(`This is foor loop ${rep}`)
+// }
+// ;
+// const akshatArray = ['Michaek', 'Smith', 2020, 'Shri Ram']
+
+// for(let i=0; i<akshatArray.length; i++){
+//     console.log(akshatArray[i]);
+
+// }
+
+// const arrayBirth = [1990, 1991, 2002, 2000, 2018, 1978, 1856];
+// const ages = [];
+
+// for(let i = 0 ; i < arrayBirth.length ; i++){
+//     const currentAge = 2037- arrayBirth[i];
+
+//     ages[i] = currentAge;
+// }
+// console.log(ages)
+
+
+//WHILE LOOP
+
+let rep = 1;
+while(rep<=100){
+    console.log(`Hi this is statement No. ${rep}`);
+    rep++;
 }
-console.log(`${jonasDetails.nameF} have ${jonasDetails.numberOfFriends.length} friends whose names are ${jonasDetails.numberOfFriends[0]}, ${jonasDetails.numberOfFriends[1]}, ${jonasDetails.numberOfFriends[2]}. And his best friend is ${jonasDetails.numberOfFriends[0]}`);
-console.log(jonasDetails.calcAge());
-
