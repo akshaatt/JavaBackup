@@ -376,7 +376,7 @@
 
 //     ages[i] = currentAge;
 // }
-// console.log(ages).
+// console.log(ages)...
 
 //WHILE LOOP
 
